@@ -269,7 +269,8 @@ nav ul li a:hover::after {
   padding-top: 10px;
 }
 .contact-center a,
-.contact-right a {
+.contact-right a,
+.contact-left a {
   text-decoration: none;
   color: #fff;
 }
