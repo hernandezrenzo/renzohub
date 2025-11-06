@@ -322,33 +322,104 @@ h6 {
 
 /* responsive csss */
 @media only screen and (max-width: 600px) {
+  .logo-alignment {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+  }
+  .logo-alignment h4 {
+    padding-left: 80px;
+  }
+  #header ul {
+    display: none;
+  }
   .header-text{
-    margin-top: 100%;
-    font-size: 16px;
+    margin-top: 5%;
+    font-size: 14px;
+    padding: 10px;
   }
   .header-text h1 {
     font-size: 30px;
   }
+  #about {
+    padding: 0px;
+  }
+  #about .container {
+    padding: 0px;
+  }
+  .row{ 
+    padding: 0px;
+  }
   .sub-title {
-    font-size: 40px;
+    font-size: 26px;
+    text-align: center;
   }
   .about-col-1, .about-col-2 {
     flex-basis: 100%;
   }
   .about-col-1 {
-    margin-bottom: 30px;
+    padding: 0px 15px;
+    /* margin-bottom: 30px; */
   }
   .about-col-2 {
     font-size: 14px;
+    text-align: center;
+    padding: 0px 30px;
   }
   .tab-links {
     font-size: 16px;
     margin-right: 20px;
   }
+  .tab-contents {
+    text-align: left;
+  }
+  #project {
+    padding: 0px 20px;
+  }
+  #project .proj-list h2{
+    font-size: 14px;
+    text-align: center;
+  }
+  #project .proj-list div {
+    padding: 20px;
+  }
+  .proj-list div a {
+    color: #fff;
+    background-color: #0b0b0b;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50px;
+  }
+
+  #certification {
+    padding: 20px;
+  }
+  .cert-list {
+    margin: 25px 0px;
+  }
+  .cert-list div {
+    padding: 20px;
+  }
+  .cert-list div h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  }
+  .cert-list div a {
+    color: #fff;
+    background-color: #0b0b0b;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50px;
+  }
+
   #contact .container .grid-row {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+  #contact .container {
+    font-size: 14px;
   }
   .contact-center h2 {
   width: 100%;
